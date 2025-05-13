@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #93c5fd; /* Tailwind blue-300 */
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .user-info button {
+    background-color: #ef4444; 
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .user-info button:hover {
+    background-color: #dc2626; 
+  }
+  
